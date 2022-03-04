@@ -1,0 +1,4 @@
+1) В папке app файл Kernel.php является front controller.
+Классы, которые с ним взаимодействуют, это: Registry, FileLocator, PhpFileLoader, UrlMatcher, RequestContext, Session, ControllerReslover, ArgumentResolver, Response.
+2) В папке app/framework в файле Registry.php реализуется паттерн regitry. Он был применен для доступа к данным из конфигурационного файла и для рендера страницы по названию роута.
+3) Третье домашнее задание в папке src/Model/Repository в файлах Product.php и User.php
